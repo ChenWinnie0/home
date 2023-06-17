@@ -1,0 +1,235 @@
+/*This is a cascading style sheet to format the html webpage*/
+
+/*general styles for all html pages*/
+/*  */
+h1, h2, h3, h4, p, div{
+	font-family:monospace;
+}
+img{
+	width:30%;
+	height:20%
+}
+.menu{
+	float:right;
+}
+th a:hover{
+	color:LightPink;
+}
+ul+a:hover{
+	color:LightPink;
+}
+.validator{
+	width:10%;
+	height:5%;
+}
+.italic{
+	font-style:italic;
+}
+.reference{
+	font-size:60%;
+}
+.reference.right-align{
+	text-align:right;
+}
+.caption{
+	font-size:80%;
+}
+
+.title-rectangle{
+	text-align:center;
+	padding:50px;
+}
+.history{
+	padding:2%;
+	margin-top:1%;
+}
+/*Style for index.html*/
+body.index{
+	background-color:OldLace;
+}
+body.index .title-rectangle{
+	color:Linen;
+	background:SaddleBrown;
+}
+#index_desc{
+	color:#dbc3ab
+}
+.description-rectangle{
+	padding:50px;
+	background:BurlyWood;
+	color:SaddleBrown;
+	text-align:center;
+}	
+.heading-img{
+	filter:brightness(70%);
+	margin:1.5%;
+}	
+.heading-img:hover{
+	filter:brightness(100%);
+}
+
+/*Style for watercolor.html*/
+body.watercolor{
+	background-color:AliceBlue;
+}
+body.watercolor>.title-rectangle{
+	background:LightSteelBlue;
+	color:LightCyan;
+}
+#watercolor_desc{
+	color:Azure;
+}
+div.watercolor>img{
+	margin-left:1%;
+	margin-right:1%;
+}
+body.watercolor .artists{
+	background-color:Ivory;
+	text-align:center;
+	padding:2%;
+}
+#watercolor-materials{
+	background-color:LightSteelBlue;
+	padding:2%;
+}
+
+/*Style for digital art.html*/
+body.dig_art{
+	background-color:Lavender;
+}
+body.dig_art>.title-rectangle{
+	background:DarkSlateBlue;
+	color:Thistle;
+}
+body.dig_art .history{
+	background-color:Snow;
+	padding-bottom:5%;
+}
+#digital_desc{
+	color:snow;
+}
+.dig_art img{
+	float:right;
+	margin-left:2%;
+}
+.dig_art img:hover{
+	border:4px outset RebeccaPurple;
+}
+div.dig_art{
+	font-size:150%;
+	padding:2%;
+	margin-bottom:4%;
+}
+#digital-materials{
+	background-color:Snow;
+	padding:2%;
+	margin-bottom:1%;
+}
+
+/*Style for pastels.html*/
+body.pastels{
+	background-color:NavajoWhite;
+}
+body.pastels>.title-rectangle{
+	background:Chocolate;
+	color:LemonChiffon;
+}
+div.pastels>img{
+	margin-left:2%;
+	margin-right:2%;
+}
+div.artists{
+	font-size:110%;
+	padding:2%;
+}
+p.pastels+.artists{
+	background-color:Peru;
+	text-align:center;
+	padding:2%;
+}
+#pastels-materials{
+	background-color:LemonChiffon;
+	padding:2%;
+	margin-bottom:1%;
+}
+
+/*Style for sculpture.html*/
+body.sculpture{
+	background-color:Linen;
+}
+body.sculpture>.title-rectangle{
+	background:RosyBrown;
+	color:OldLace;
+}
+body.sculpture>.history{
+	background-color:Snow;
+	font-size:125%;
+	padding:2%;
+}
+div.sculpture img{
+	float:right;
+	margin-left:2%;
+}
+.sculpture img:hover{
+	border:4px outset Pink;
+}
+.history_desc{
+	margin-bottom:12%;
+}
+body.sculpture>.artists{
+	background-color:AliceBlue;
+	text-align:center;
+	padding:2%;
+}
+#sculpture-materials{
+	padding:2%;
+	background-color:SeaShell;
+	margin-bottom:1%;
+}
+
+/*Style for oil paint.html*/
+body.oil_paint{
+	background-color:DarkOliveGreen;
+}
+body.oil_paint>.title-rectangle{
+	background:#c3d1be;
+	color:DarkSlateGrey;
+}
+body.oil_paint>.history{
+	background-color:LightYellow;
+}
+body.oil_paint>.artists{
+	background-color:#c5d1b4;
+	padding:2%;
+}
+img.oil_paint{
+	float:right;
+}
+body.oil_paint>.artists p{
+	padding-bottom:18%;
+}
+#oil-materials{
+	padding:2%;
+	background-color:DarkSlateGrey;
+	color:HoneyDew;
+	margin-bottom:1%;
+}
+
+/*Style for refrence.html*/
+body.references{
+	background-color:CornSilk;
+}
+body.references>.title-rectangle{
+	background:BurlyWood;
+	color:SaddleBrown;
+}
+.citation{
+	line-height:2;
+	color:SaddleBrown;
+}
+#link{
+	font-family:monospace;
+}
+#link:hover{
+	color:LightPink;
+}
